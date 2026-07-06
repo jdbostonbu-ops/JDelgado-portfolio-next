@@ -25,9 +25,9 @@ export default function LiveAutomation() {
       <div className="section-head section-head--left">
         <span className="eyebrow mono cyan-text">{"// live automation demo"}</span>
         <p className="pull-quote-text">
-          <span className="quote-mark quote-yellow">&ldquo;</span>
+          <span className="pq-mark pq-open">&ldquo;</span>
           {quote}
-          <span className="quote-mark quote-yellow">&rdquo;</span>
+          <span className="pq-mark pq-close">&rdquo;</span>
         </p>
         <p className="automation-proof-copy">
           Updated daily through a Zapier + Google Apps Script workflow. No manual site update

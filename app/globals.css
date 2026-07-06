@@ -184,6 +184,8 @@ main { overflow: hidden; }
   text-transform: uppercase;
 }
 
+.eyebrow.cyan-text { color: var(--cyan); }
+
 .trust-line { font-size: 16px; font-weight: 850; }
 .action-row { display: flex; flex-wrap: wrap; gap: 16px; margin: 32px 0 24px; }
 
@@ -541,6 +543,27 @@ main { overflow: hidden; }
   line-height: 1.2;
   margin: 0 0 22px;
   max-width: 980px;
+  position: relative;
+}
+
+.pq-mark {
+  color: var(--yellow);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.15em;
+  font-weight: 700;
+  line-height: 0;
+}
+
+.pq-open {
+  margin-right: 0.04em;
+  position: absolute;
+  transform: translateX(-105%);
+  vertical-align: -0.28em;
+}
+
+.pq-close {
+  margin-left: 0.04em;
+  vertical-align: -0.28em;
 }
 
 .quote-mark { font-size: 34px; font-weight: 900; line-height: 0; vertical-align: -10px; }

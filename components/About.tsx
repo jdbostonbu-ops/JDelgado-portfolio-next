@@ -27,13 +27,17 @@ export default function About() {
       <div className="about-layout">
         <div>
           <span className="eyebrow mono yellow-text">{"// a different path"}</span>
-          <h2 className="section-title">25 years of systems thinking. New syntax.</h2>
+          <h2 className="section-title">
+            I notice everything. I&apos;ve stopped apologizing for it.
+          </h2>
           <p className="about-lede">
-            I&apos;m a results-driven engineer with a background in data-driven
-            decision-making, risk analysis, and behavioral pattern recognition. After 12
-            years running my own agency, behavior detection and analysis work with DHS, and
-            my Next Chapter apprenticeship, I&apos;m channeling that same analytical mindset
-            into building scalable, AI-powered applications for real operations.
+            Federal behavior-detection training does not come with an off switch. At the
+            farmers market I know which vendor runs out of tomatoes first. In line at the
+            bank I&apos;ve solved a crime that hasn&apos;t happened yet. This was becoming a
+            problem — so I aimed it at software, the one industry where noticing everything
+            is billable. Now I catch the workflow that fails silently, the dashboard
+            that&apos;s green and lying, the &quot;quick task&quot; that eats your Tuesday. Your
+            Tuesday called. It wants a robot.
           </p>
         </div>
         <div className="about-mini-stack">

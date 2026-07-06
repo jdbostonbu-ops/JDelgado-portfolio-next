@@ -41,3 +41,11 @@ This file collects the prompts used during the portfolio redesign pass.
 37. Explain how the Zap quote is being updated.
 38. Clarify whether the Zap quote uses the Google Apps Script endpoint as JSON.
 39. Add the remaining prompts to `prompts.md`.
+40. Replace the contact header "Let's build something great together." with "I did behavior detection for the federal government. / I already know you're going to email me. Save us both the suspense."
+41. Replace the contact subtitle "Open to opportunities, collaborations, and conversations. Reach out anytime." with "I already know you're going to email me. Save us both the suspense."
+42. Remove "I already know you're going to email me. Save us both the suspense." from the contact header and leave it in the subtitle.
+43. In the `// a different path` section, replace the results-driven paragraph with the new behavior-detection/software paragraph.
+44. Move "I notice everything. I've stopped apologizing for it." from the paragraph into the `// a different path` header, replacing "25 years of systems thinking. New syntax."
+45. Change the `// live automation demo` eyebrow color to cyan.
+46. Fix the daily quote band so curled quote marks stay outside the fetched Zapier quote data, use display-scale `pq-mark` spans, Georgia/Times styling, yellow color, and hanging opening punctuation.
+47. Add all remaining prompts to `prompts.md`.
