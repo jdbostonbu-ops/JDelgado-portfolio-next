@@ -52,3 +52,10 @@ This file collects the prompts used during the portfolio redesign pass.
 48. Verify the quote mark classes before applying the quote positioning fix, avoid creating dead CSS, delete the old absolute `.pq-open` positioning and related `.pull-quote-text` positioning, and replace the `.pq-mark`, `.pq-open`, and `.pq-close` rules with the updated inline quote mark styling.
 49. In the "I build websites, bookings" section, replace the sentence with: "Websites, booking systems, automations — and on one unsupervised Friday, a 3D dinosaur game."
 50. Add remaining prompts to `prompts.md`.
+51. Add a powered-by badge directly under the chatbot frame linking to GrumpyBot, using `/grumpybot-logo.svg`, and style it as a rounded badge.
+52. Change the chatbot section to a split header with `// live embed`, left-side copy, a large GrumpyBot mascot on the right, and keep the frame plus powered-by badge below unchanged.
+53. Restore the chatbot heading font size after the split header change.
+54. Make "Ask about clown day. Then ask about the stock market." the chatbot subheading.
+55. Restore "Radical, I know." after it was removed from the chatbot copy.
+56. Move "Radical, I know." into the second row of the "Need a Chatbot?" heading and keep only "Ask about clown day. Then ask about the stock market." as the subheading.
+57. Reduce the chatbot mascot image above the chatbox by 25% and add all remaining prompts to `prompts.md`.
