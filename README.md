@@ -1,59 +1,83 @@
-# jacquelinedelgado.com — Next.js edition
+<p align="center">
+  <img src="public/favicon.svg" width="300" alt="JD logo" />
+</p>
 
-Portfolio rebuilt in **Next.js 14 (App Router) + TypeScript**, styled with the
-**Nymbl design system** (tokens carried over exactly from
-`chat-gpt-nymbl-landing-page`).
+<h1 align="center">🏠 jacquelinedelgado.com</h1>
 
-## Run it locally
+<p align="center">
+  Portfolio of <a href="https://github.com/jdbostonbu-ops"><strong>Jacqueline Delgado</strong></a> — AI Collaborative Software Engineer.<br/>
+  Websites, booking systems, and automations for small businesses. Also, once, a dinosaur game.
+</p>
 
-```bash
-npm install
-npm run dev        # http://localhost:3000
-```
+<p align="center">
+  🌐 <strong>Live at:</strong> <a href="https://jacquelinedelgado.com">jacquelinedelgado.com</a>
+</p>
 
-Note: the GrumpyBot chatbot iframe is origin-locked to jacquelinedelgado.com,
-so it may refuse to load on localhost. Everything else works locally.
+---
 
-## Build
+## ✨ Features
+
+- 🤖 **Embedded no-code chatbot** — powered by [GrumpyBot](https://www.grumpybot.fyi), the embedded-iframe chatbot platform **I built**. This one is trained on a real dog-walking handbook, answers only from its documents, and admits when it doesn't know. Ask it about clown day. Clown day is real.
+- ⚡ **Self-updating quotes** — a fresh quote lands weekly through a **Zapier + Google Apps Script** workflow. No manual edits, no redeploys: part of this site maintains itself while I sleep.
+- 🚢 **Four featured builds** —
+  - [**Story Pot**](https://story-pot.vercel.app/) · a local-first PWA memory archive (records, transcribes in 67 languages, no cloud, no account)
+  - [**The Sky Is Falling**](https://the-sky-falling.vercel.app) · a 3D browser game where dinosaurs catch falling shapes — with a real Express + SQLite leaderboard
+  - [**GrumpyBot**](https://www.grumpybot.fyi) · my no-code RAG chatbot SaaS (the same one embedded below)
+  - [**AnglerCast**](https://www.anglercast.fyi) · fishing insight from real public occurrence data — honest numbers, no invented catches
+- 🗣️ **Real testimonials** — from real users and clients, quoted with their real words. The star ratings you won't find here were never given, so they're not shown.
+- 😄 **Humor throughout the entire landing page** — every section header hides a joke, and every joke sits on a fact that survives checking.
+- 🌐 **Real custom domain** — served at [jacquelinedelgado.com](https://jacquelinedelgado.com), with the CNAME riding along in `public/`.
+
+## 🛠️ Stack
+
+| Layer | Tech |
+| --- | --- |
+| Framework | Next.js 14 (App Router), static export |
+| Language | TypeScript + React 18 |
+| Styling | Hand-rolled CSS design tokens — no UI framework, no Tailwind |
+| Typography | Inter (display + body) · JetBrains Mono (code-comment eyebrows) |
+| Automation | Zapier + Google Apps Script (weekly quote feed) |
+| Chatbot | GrumpyBot embed — my own platform, eating its own dog (walking) food |
+| CI/CD | GitHub Actions → GitHub Pages *(or Vercel — both supported)* |
+
+## 🚀 Build & Deploy
 
 ```bash
 npm run build      # static export → ./out
 ```
 
-`next.config.mjs` uses `output: 'export'`, so the build produces plain
-HTML/CSS/JS in `out/` — deployable anywhere static files go.
+`next.config.mjs` uses `output: 'export'`, so the build is plain HTML/CSS/JS — deployable anywhere static files go.
 
-## Deploy — two options
-
-**Option A — GitHub Pages (current host, keeps the custom domain):**
-1. Push this project to the repo that serves jacquelinedelgado.com.
-2. Repo → Settings → Pages → Source: **GitHub Actions**.
-3. The included `.github/workflows/deploy.yml` builds and deploys on every push.
-4. `public/CNAME` (jacquelinedelgado.com) and `public/.nojekyll` are already in
-   place — do not delete them. `.nojekyll` stops GitHub from ignoring the
-   `_next/` asset folder.
+**Option A — GitHub Pages (custom domain, current setup):**
+1. Push to the repo that serves jacquelinedelgado.com.
+2. Settings → Pages → Source: **GitHub Actions**.
+3. `.github/workflows/deploy.yml` builds and deploys on every push.
+4. Keep `public/CNAME` and `public/.nojekyll` — the first holds the domain, the second stops GitHub from eating the `_next/` folder.
 
 **Option B — Vercel:**
-Import the repo at vercel.com/new, framework auto-detects, add the custom
-domain in the Vercel dashboard. No workflow needed (you can delete
-`.github/workflows/deploy.yml` and `public/.nojekyll`).
+Import at [vercel.com/new](https://vercel.com/new); the framework auto-detects. Add the custom domain in the dashboard, then delete the workflow file and `.nojekyll` if you like a tidy repo.
 
-## Where things live
+## 📁 Where things live
 
-- `app/globals.css` — the whole design system. Colors/fonts/spacing tokens at
-  the top under `:root`.
-- `components/` — one file per section, content lives inline in each file.
-- `components/StatusBar.tsx` — the "currently shipping" text: edit the STATUS
-  constant.
-- `components/DailyQuote.tsx` — the Zapier-fed daily quote endpoint.
-- Timeline, stat counters, reveals, and card tilt respect
-  `prefers-reduced-motion`.
+- `app/globals.css` — the entire design system; color, type, and spacing tokens under `:root`.
+- `components/` — one file per section; content lives inline where it's used.
+- `components/DailyQuote.tsx` — the Zapier-fed quote endpoint.
+- `components/StatusBar.tsx` — the "currently shipping" line: edit the `STATUS` constant, push, done.
+- Every animation (marquee, counters, timeline, reveals, tilt) respects `prefers-reduced-motion`.
 
-## Changes from the HTML version (intentional)
+## ⭐ Say hi
 
-- Fixed duplicate `id="tl0"` on the 1998/2003 timeline items (the 2003 stop
-  never animated in the old site).
-- "Entreprenuer" → "Entrepreneur" (About, card 01).
-- Section eyebrows keep the `// comment` voice but drop the out-of-order
-  numbers (01, 02, 02.5, 05, 06, 07, 04…).
-- `aboutme.gif` was not referenced by the old index.html and is not shipped.
+<p align="center">
+  <a href="https://github.com/jdbostonbu-ops">
+    <img src="https://github.com/jdbostonbu-ops.png" width="96" alt="Jacqueline Delgado" />
+  </a>
+  <br/>
+  <strong><a href="https://github.com/jdbostonbu-ops">@jdbostonbu-ops</a></strong>
+  <br/>
+  <sub>Founder, Hum LLC · New London, CT</sub>
+</p>
+
+<p align="center">
+  If this page made you smile — or you also hold grudges against spreadsheets —<br/>
+  <strong>⭐ star this repo.</strong> It's the only metric on this site I don't automate.
+</p>

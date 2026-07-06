@@ -543,27 +543,23 @@ main { overflow: hidden; }
   line-height: 1.2;
   margin: 0 0 22px;
   max-width: 980px;
-  position: relative;
 }
 
 .pq-mark {
-  color: var(--yellow);
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.15em;
   font-weight: 700;
+  font-size: 1.1em;
   line-height: 0;
+  color: var(--yellow);
+  vertical-align: -0.1em;
 }
 
 .pq-open {
-  margin-right: 0.04em;
-  position: absolute;
-  transform: translateX(-105%);
-  vertical-align: -0.28em;
+  margin-right: 0.12em;
 }
 
 .pq-close {
-  margin-left: 0.04em;
-  vertical-align: -0.28em;
+  margin-left: 0.18em;
 }
 
 .quote-mark { font-size: 34px; font-weight: 900; line-height: 0; vertical-align: -10px; }

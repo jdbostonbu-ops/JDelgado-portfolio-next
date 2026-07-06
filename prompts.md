@@ -49,3 +49,6 @@ This file collects the prompts used during the portfolio redesign pass.
 45. Change the `// live automation demo` eyebrow color to cyan.
 46. Fix the daily quote band so curled quote marks stay outside the fetched Zapier quote data, use display-scale `pq-mark` spans, Georgia/Times styling, yellow color, and hanging opening punctuation.
 47. Add all remaining prompts to `prompts.md`.
+48. Verify the quote mark classes before applying the quote positioning fix, avoid creating dead CSS, delete the old absolute `.pq-open` positioning and related `.pull-quote-text` positioning, and replace the `.pq-mark`, `.pq-open`, and `.pq-close` rules with the updated inline quote mark styling.
+49. In the "I build websites, bookings" section, replace the sentence with: "Websites, booking systems, automations — and on one unsupervised Friday, a 3D dinosaur game."
+50. Add remaining prompts to `prompts.md`.
