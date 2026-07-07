@@ -9,7 +9,12 @@ export default function Chatbot() {
             <br />
             Radical, I know.
           </h2>
-          <p>Ask about clown day. Then ask about the stock market.</p>
+          <p>This chatbot is a no-code chatbot made for a mock dog walking business and their funny handbook.</p>
+          <p>
+            <strong>
+              <em>Ask about clown day. Then ask about the stock market.</em>
+            </strong>
+          </p>
         </div>
         <div className="chatbot-mascot">
           <img src="/grumpybot-logo.svg" alt="" aria-hidden="true" />

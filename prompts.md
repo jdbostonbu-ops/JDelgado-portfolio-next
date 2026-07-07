@@ -59,3 +59,6 @@ This file collects the prompts used during the portfolio redesign pass.
 55. Restore "Radical, I know." after it was removed from the chatbot copy.
 56. Move "Radical, I know." into the second row of the "Need a Chatbot?" heading and keep only "Ask about clown day. Then ask about the stock market." as the subheading.
 57. Reduce the chatbot mascot image above the chatbox by 25% and add all remaining prompts to `prompts.md`.
+58. In the chatbot section, above "Ask me about clown day," add a sentence saying this chatbot is a no-code chatbot made for a mock dog walking business and their funny handbook.
+59. Make "Ask about clown day. Then ask about the stock market." bold and italic.
+60. Add remaining prompts in `prompts.md`.
