@@ -534,7 +534,7 @@ main { overflow: hidden; }
 .about-mini-card h3 { font-size: 22px; font-weight: 900; margin: 6px 0 4px; }
 .about-mini-card p { color: var(--muted); font-size: 14px; line-height: 1.55; margin: 0; }
 .about-mini-sub { color: var(--blue); font-weight: 900; margin-bottom: 8px !important; }
-.about-card-back p { color: var(--ink); font-weight: 800; }
+.about-card-back p { color: var(--ink); font-size: 18px; font-weight: 800; }
 
 .pull-quote-text {
   font-size: clamp(24px, 3.2vw, 40px);
