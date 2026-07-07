@@ -38,6 +38,33 @@ export default function LiveAutomation() {
           <span>Google Apps Script API</span>
           <span>Portfolio UI</span>
         </div>
+        <div className="automation-social-proof">
+          <div className="automation-social-copy">
+            <span className="automation-social-kicker mono">Zapier social post</span>
+            <h3>Automation that ships beyond the website.</h3>
+            <p>
+              This reel is part of the same workflow mindset: connect the trigger, prepare the
+              content, and publish a finished social media post without adding extra manual steps.
+              Even AI-generated videos.
+            </p>
+            <a
+              className="automation-social-link"
+              href="https://www.instagram.com/reel/DafM9XrFKxq/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Instagram reel
+            </a>
+          </div>
+          <div className="automation-reel-frame">
+            <iframe
+              src="https://www.instagram.com/reel/DafM9XrFKxq/embed"
+              title="Zapier social media automation Instagram reel"
+              loading="lazy"
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            />
+          </div>
+        </div>
       </div>
     </Reveal>
   );
