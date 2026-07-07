@@ -29,10 +29,6 @@ export default function LiveAutomation() {
           {quote}
           <span className="pq-mark pq-close">&rdquo;</span>
         </p>
-        <p className="automation-proof-copy">
-          Updated daily through a Zapier + Google Apps Script workflow. No manual site update
-          required.
-        </p>
         <div className="automation-flow" aria-label="Automation flow">
           <span>Zapier trigger</span>
           <span>Google Apps Script API</span>

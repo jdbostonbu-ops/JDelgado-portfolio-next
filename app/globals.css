@@ -612,6 +612,10 @@ main { overflow: hidden; }
   text-align: left;
 }
 
+.section--ink .automation-social-proof {
+  margin-top: 100px;
+}
+
 .automation-social-copy {
   max-width: 560px;
 }
