@@ -5,7 +5,7 @@ export default function Hero() {
         <p className="eyebrow cyan-text mono">{"// AI Collaborative Software Engineer"}</p>
         <h1>Hi, I&apos;m Jacqueline.</h1>
         <p className="hero-subhead">
-          Websites, booking systems, automations — and on one unsupervised Friday, a 3D dinosaur game.
+          I build websites, booking systems, automations — and on one unsupervised Friday, a 3D dinosaur game.
         </p>
         <div className="action-row">
           <a className="button button-yellow" href="#contact">
