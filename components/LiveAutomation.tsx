@@ -41,11 +41,10 @@ export default function LiveAutomation() {
             <p>
               This reel is part of the same workflow mindset: connect the trigger, prepare the
               content, and publish a finished social media post without adding extra manual steps.
-              Even AI-generated videos.
             </p>
             <a
               className="automation-social-link"
-              href="https://www.instagram.com/reel/DafM9XrFKxq/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+              href="https://www.instagram.com/reel/DaiVleAvPgc/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
               target="_blank"
               rel="noreferrer"
             >
@@ -54,7 +53,7 @@ export default function LiveAutomation() {
           </div>
           <div className="automation-reel-frame">
             <iframe
-              src="https://www.instagram.com/reel/DafM9XrFKxq/embed"
+              src="https://www.instagram.com/reel/DaiVleAvPgc/embed"
               title="Zapier social media automation Instagram reel"
               loading="lazy"
               allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
