@@ -101,7 +101,7 @@ const PortraitBand = (): ReactElement => {
           preload="none"
           loop={false}
           poster="/Monarch_Gaze__Final_Wink_Poster.jpg"
-          src="/Monarch_Gaze__Final_Wink.mp4"
+          src="/Monarch_Gaze_.mp4"
         />
       </div>
     </section>
