@@ -9,7 +9,9 @@ export default function Chatbot() {
             <br />
             Radical, I know.
           </h2>
-          <p>This chatbot is a no-code chatbot made for a mock dog walking business and their funny handbook.</p>
+          <p>
+            I coded the RAG system behind GrumpyBot, then turned it into a no-code iframe embed so new coders can add a grounded chatbot to their own site. This demo answers from a mock dog walking business&apos;s very funny handbook.
+          </p>
           <p>
             <strong>
               <em>Ask about clown day. Then ask about the stock market.</em>
