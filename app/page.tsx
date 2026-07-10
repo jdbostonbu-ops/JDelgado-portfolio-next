@@ -1,5 +1,6 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
+import PortraitBand from "@/components/PortraitBand";
 import Marquee from "@/components/Marquee";
 import Skills from "@/components/Skills";
 import About from "@/components/About";
@@ -22,6 +23,7 @@ export default function Home() {
       <main>
         <Hero />
         <Marquee />
+        <PortraitBand />
         <Skills />
         <About />
         <Services />

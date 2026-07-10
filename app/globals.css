@@ -204,6 +204,60 @@ main { overflow: hidden; }
 @keyframes signatureSweep { from { background-position: 0% 50%; } to { background-position: 100% 50%; } }
 @keyframes signaturePulse { to { background-position: 100% 50%; } }
 
+.portrait-band {
+  align-items: center;
+  background: #f0e3d1;
+  border-top: 3px solid #ff2d95;
+  display: grid;
+  gap: clamp(36px, 6vw, 96px);
+  grid-template-columns: minmax(0, 0.82fr) minmax(460px, 1.18fr);
+  padding: clamp(58px, 7vw, 96px) var(--gutter);
+}
+
+.portrait-copy { max-width: 620px; }
+
+.portrait-eyebrow {
+  color: var(--pink);
+  font-size: 14px;
+  font-weight: 950;
+  letter-spacing: .09em;
+  margin: 0 0 18px;
+  text-transform: uppercase;
+}
+
+.portrait-copy h2 {
+  color: var(--ink);
+  font-size: clamp(42px, 5vw, 76px);
+  font-weight: 950;
+  letter-spacing: -.035em;
+  line-height: .96;
+  margin: 0 0 22px;
+}
+
+.portrait-subhead {
+  color: var(--muted);
+  font-size: clamp(18px, 1.8vw, 24px);
+  line-height: 1.45;
+  margin: 0;
+  max-width: 520px;
+}
+
+.portrait-media {
+  aspect-ratio: 16 / 9;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  width: 100%;
+}
+
+.portrait-media video {
+  background: #f0e3d1;
+  display: block;
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+}
+
 .marquee-band {
   background: var(--cyan);
   color: var(--ink);
@@ -1316,6 +1370,14 @@ main { overflow: hidden; }
 }
 
 @media (max-width: 860px) {
+  .portrait-band {
+    grid-template-columns: 1fr;
+  }
+  .portrait-copy { max-width: 680px; }
+  .portrait-media {
+    justify-self: center;
+    max-width: 720px;
+  }
   .quotes { grid-template-columns: 1fr; }
 }
 
