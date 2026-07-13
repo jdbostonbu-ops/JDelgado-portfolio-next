@@ -4,7 +4,7 @@ const chapters = [
   {
     number: "01",
     title: "Entrepreneur",
-    sub: "2012-2024",
+    sub: "2012-Present",
     back: "Running an agency taught me to design intake pipelines, vendor handoffs, claims workflows, and resilient systems under real business pressure.",
   },
   {
