@@ -17,6 +17,7 @@ const PortraitBand = (): ReactElement => {
     const reducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
     const hoverQuery = window.matchMedia("(hover: hover) and (pointer: fine)");
     let observer: IntersectionObserver | null = null;
+    let soundEnabled = false;
 
     const resetVideo = (): void => {
       video.pause();
@@ -32,6 +33,27 @@ const PortraitBand = (): ReactElement => {
       void video.play().catch((): void => {
         resetVideo();
       });
+    };
+
+    const enableSound = (): void => {
+      if (soundEnabled) {
+        return;
+      }
+
+      soundEnabled = true;
+      video.muted = false;
+
+      // Start playback during the user gesture so browsers authorize audio on
+      // later hover playback, then immediately return to the poster frame.
+      const playback = video.play();
+      void playback
+        .then((): void => {
+          resetVideo();
+        })
+        .catch((): void => {
+          video.muted = true;
+          soundEnabled = false;
+        });
     };
 
     const handleMouseEnter = (): void => {
@@ -50,6 +72,7 @@ const PortraitBand = (): ReactElement => {
     };
 
     reducedMotionQuery.addEventListener("change", handleReducedMotionChange);
+    document.addEventListener("pointerdown", enableSound, { once: true });
 
     if (!reducedMotionQuery.matches && hoverQuery.matches) {
       media.addEventListener("mouseenter", handleMouseEnter);
@@ -75,6 +98,7 @@ const PortraitBand = (): ReactElement => {
       media.removeEventListener("mouseenter", handleMouseEnter);
       media.removeEventListener("mouseleave", handleMouseLeave);
       reducedMotionQuery.removeEventListener("change", handleReducedMotionChange);
+      document.removeEventListener("pointerdown", enableSound);
       resetVideo();
     };
   }, []);
@@ -85,6 +109,7 @@ const PortraitBand = (): ReactElement => {
         <p className="portrait-eyebrow mono">{"// hover at your own risk"}</p>
         <h2 id="portrait-title">You&apos;re being observed.</h2>
         <p className="portrait-subhead">Hover if you&apos;d like it to be mutual.</p>
+        <p className="portrait-sound-hint">Click anywhere, then hover to hear the butterfly flutter.</p>
       </div>
       <div
         className="portrait-media"

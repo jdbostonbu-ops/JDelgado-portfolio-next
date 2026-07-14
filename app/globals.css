@@ -242,6 +242,13 @@ main { overflow: hidden; }
   max-width: 520px;
 }
 
+.portrait-sound-hint {
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 700;
+  margin: 12px 0 0;
+}
+
 .portrait-media {
   aspect-ratio: 16 / 9;
   border-radius: 16px;
