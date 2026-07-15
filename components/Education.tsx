@@ -43,7 +43,7 @@ const cards = [
     icon: "🏛️", year: "2010 – 2012", name: "Boston University",
     tags: [["MS Degree", false], ["Criminal Justice", false]],
     hTag: "// graduate degree", hName: "MCJ — Criminal Justice",
-    hBody: "2010-2012.",
+    hBody: "2010-2012",
     summary: "",
   },
   {
