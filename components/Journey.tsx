@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 
 const stops = [
-  { year: "1998", title: "Worked in Human Services", sub: "Certified Nurses Aide · HIV/AIDS Educator · Drug Treatment Advocate · Case Manager · Risk Reduction & Harm Reduction Educator & Outreach Worker · Clinical Operating Assistant & Phlebotomist" },
+  { year: "1998", title: "Worked in Human Services", sub: "Certified Nurses Aide · HIV/AIDS Educator · Drug Treatment Advocate · Case Manager · Risk Reduction & Harm Reduction Educator & Outreach Worker · Clinical Operating Assistant · Program Coordinator & Phlebotomist" },
   { year: "2003", title: "Mitchell College", sub: "BA Professional Studies · Business concentration." },
   { year: "2010", title: "Boston University", sub: "Master of Science in Criminal Justice · Systems thinking at scale" },
   { year: "2012", title: "Agency Owner", sub: "12 years · Risk modeling, data systems, workflow architecture. Worked with the disabled & aging populations. Developed own software solutions for business management & marketing." },
