@@ -29,14 +29,14 @@ export default function LiveAutomation() {
           {quote}
           <span className="pq-mark pq-close">&rdquo;</span>
         </p>
-        <div className="automation-flow" aria-label="Automation flow">
-          <span>Zapier trigger</span>
-          <span>Google Apps Script API</span>
-          <span>Portfolio UI</span>
+        <div className="automation-flow" aria-label="Automated content workflow">
+          <span>New content ready</span>
+          <span>Automated update</span>
+          <span>Published experience</span>
         </div>
         <div className="automation-social-proof">
           <div className="automation-social-copy">
-            <span className="automation-social-kicker mono">Zapier social post</span>
+            <span className="automation-social-kicker mono">Automated social publishing</span>
             <h3>Automation that ships beyond the website.</h3>
             <p>
               This reel is part of the same workflow mindset: connect the trigger, prepare the
@@ -54,7 +54,7 @@ export default function LiveAutomation() {
           <div className="automation-reel-frame">
             <iframe
               src="https://www.instagram.com/reel/DaiVleAvPgc/embed"
-              title="Zapier social media automation Instagram reel"
+              title="Social media automation Instagram reel"
               loading="lazy"
               allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
             />

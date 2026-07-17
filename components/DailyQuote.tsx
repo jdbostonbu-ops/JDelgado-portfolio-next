@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 import Reveal from "./Reveal";
 
-// Daily quote — written by a Zapier workflow into Google Apps Script,
-// read here on every page view. No manual site update required.
+// Daily quote — supplied by an automated content workflow and read here on
+// every page view. No manual site update required.
 const QUOTE_ENDPOINT =
   "https://script.googleusercontent.com/macros/echo?user_content_key=AUkAhnR79E5CJf8nb6cTkXFePwL1tzzEdRQbDhzpQHMhobkozhAMQ8JiLzVrMGGaciOTiQ2Xh8Dz17BlduYib9J0daHv_vLAJiE_YbTIZ3W_an0XcAZJucIOyqb0URWmcdkuAMCmKxmEiU0G1nowHQh2ZxqWuGiszmmRVpTB_B9Dy0t74-VayU42SbM0jdiQ1Ho8nruxsX54FHEQ0z08xklLOl-5NXzKw1cPum-BCekbtswljn3gLfqGg6MJd8XZXjrExuUwR7pTQIV1cIuwCh2CvWzPP8Q5lg&lib=MmBjHGtP4zKa_GclqV1ldia5rqA7RFE1E";
 
@@ -31,10 +31,10 @@ export default function DailyQuote() {
         {quote}
         <span className="pq-mark pq-close">&rdquo;</span>
       </p>
-      <div className="automation-flow" aria-label="Automation flow">
-        <span>Zapier trigger</span>
-        <span>Google Apps Script API</span>
-        <span>Portfolio UI</span>
+      <div className="automation-flow" aria-label="Automated content workflow">
+        <span>New content ready</span>
+        <span>Automated update</span>
+        <span>Published experience</span>
       </div>
     </Reveal>
   );
