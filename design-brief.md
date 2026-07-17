@@ -298,7 +298,7 @@ buttons.
 4.9 By the numbers (white section)
 
 Four huge stat counters (count-up on scroll): 25+ Years Experience ·
-16 Projects Shipped · 4+ Credentials Earned & Active · 1 Apprenticeship In
+53 Projects Shipped · 4+ Credentials Earned & Active · 1 Apprenticeship In
 Progress. Numbers colored cyan / yellow→use orange on white / pink / blue.
 
 4.10 Education + Journey (cloud section)
