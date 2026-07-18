@@ -25,6 +25,7 @@
   - [**GrumpyBot**](https://www.grumpybot.fyi) · my no-code RAG chatbot SaaS (the same one embedded below)
   - [**AnglerCast**](https://www.anglercast.fyi) · fishing insight from real public occurrence data — honest numbers, no invented catches
 - 🗣️ **Real testimonials** — from real users and clients, quoted with their real words. The star ratings you won't find here were never given, so they're not shown.
+- ✉️ **Web3Forms contact form** — a responsive, animated project inquiry form with validation, spam protection, submission feedback, and a 180-degree card reveal.
 - 😄 **Humor throughout the entire landing page** — every section header hides a joke, and every joke sits on a fact that survives checking.
 - 🌐 **Real custom domain** — served at [jacquelinedelgado.com](https://jacquelinedelgado.com), with the CNAME riding along in `public/`.
 
@@ -37,16 +38,21 @@
 | Styling | Hand-rolled CSS design tokens — no UI framework, no Tailwind |
 | Typography | Inter (display + body) · JetBrains Mono (code-comment eyebrows) |
 | Automation | Zapier + Google Apps Script (weekly quote feed) |
+| Contact form | Web3Forms |
 | Chatbot | GrumpyBot embed — my own platform, eating its own dog (walking) food |
 | CI/CD | GitHub Actions → GitHub Pages *(or Vercel — both supported)* |
 
 ## 🚀 Build & Deploy
 
 ```bash
-npm run build      # static export → ./out
+npm install        # install dependencies
+npm run dev        # local Next.js development server
+npm run build      # production build and static export → ./out
 ```
 
-`next.config.mjs` uses `output: 'export'`, so the build is plain HTML/CSS/JS — deployable anywhere static files go.
+This landing page is built with **Next.js 14 App Router, React 18, and TypeScript**. Use `npm run dev` for local development and `npm run build` to create the production build.
+
+Every push to `main` automatically builds and deploys the site to GitHub Pages through GitHub Actions. The project can also be deployed with Vercel.
 
 **Option A — GitHub Pages (custom domain, current setup):**
 1. Push to the repo that serves jacquelinedelgado.com.
