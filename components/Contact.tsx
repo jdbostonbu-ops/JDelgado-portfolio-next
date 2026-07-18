@@ -45,7 +45,7 @@ export default function Contact() {
         <span className="eyebrow mono">{"// Let’s build something useful"}</span>
         <h2 className="section-title">Have a project in mind?</h2>
         <p className="section-subtitle">
-          Tell me what you&apos;re working on and I&apos;ll get back to you.
+          Or just tell me what&apos;s broken. I like broken things.
         </p>
       </div>
 
