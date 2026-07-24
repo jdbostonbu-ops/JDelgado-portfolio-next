@@ -52,11 +52,12 @@ export default function LiveAutomation() {
             </a>
           </div>
           <div className="automation-reel-frame">
-            <iframe
-              src="https://www.instagram.com/reel/DaiVleAvPgc/embed"
-              title="Social media automation Instagram reel"
-              loading="lazy"
-              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            <video
+              src="/Golden-doodle.mp4"
+              aria-label="Golden doodle automation video"
+              controls
+              playsInline
+              preload="metadata"
             />
           </div>
         </div>
