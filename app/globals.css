@@ -736,11 +736,10 @@ main { overflow: hidden; }
   width: 100%;
 }
 
-.automation-reel-frame video {
+.automation-reel-frame iframe {
   aspect-ratio: 9 / 14;
   border: 0;
   display: block;
-  object-fit: cover;
   min-height: 430px;
   width: 100%;
 }
@@ -1483,7 +1482,7 @@ main { overflow: hidden; }
     margin: 0 auto;
     max-width: 360px;
   }
-  .automation-reel-frame video {
+  .automation-reel-frame iframe {
     min-height: 390px;
   }
   .edu-row { grid-template-columns: repeat(2, 1fr); }
