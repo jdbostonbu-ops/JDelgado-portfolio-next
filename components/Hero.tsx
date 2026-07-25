@@ -13,14 +13,6 @@ export default function Hero() {
           </a>
           <a
             className="button button-outline"
-            href="https://github.com/jdbostonbu-ops"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View GitHub
-          </a>
-          <a
-            className="button button-outline"
             href="https://www.linkedin.com/in/jacqueline-delgado-6a7bb7250"
             target="_blank"
             rel="noopener noreferrer"
