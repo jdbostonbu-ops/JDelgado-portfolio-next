@@ -13,6 +13,7 @@ import Education from "@/components/Education";
 import Journey from "@/components/Journey";
 import Community from "@/components/Community";
 import Chatbot from "@/components/Chatbot";
+import PetVideoShowcase from "@/components/PetVideoShowcase";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -35,6 +36,7 @@ export default function Home() {
         <Journey />
         <Community />
         <Chatbot />
+        <PetVideoShowcase />
         <Contact />
       </main>
       <Footer />
