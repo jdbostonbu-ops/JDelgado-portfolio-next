@@ -44,7 +44,7 @@ export default function LiveAutomation() {
             </p>
             <a
               className="automation-social-link"
-              href="https://www.instagram.com/reel/DbMVtinxa4V/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+              href="https://www.instagram.com/reel/DbPHvpexdgx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
               target="_blank"
               rel="noreferrer"
             >
@@ -53,7 +53,7 @@ export default function LiveAutomation() {
           </div>
           <div className="automation-reel-frame">
             <iframe
-              src="https://www.instagram.com/reel/DbMVtinxa4V/embed"
+              src="https://www.instagram.com/reel/DbPHvpexdgx/embed"
               title="Social media automation Instagram reel"
               loading="lazy"
               allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
