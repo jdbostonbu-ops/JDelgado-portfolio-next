@@ -15,6 +15,7 @@ import Community from "@/components/Community";
 import Chatbot from "@/components/Chatbot";
 import PetVideoShowcase from "@/components/PetVideoShowcase";
 import Contact from "@/components/Contact";
+import ProviderInterestForm from "@/components/ProviderInterestForm";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -38,6 +39,7 @@ export default function Home() {
         <Chatbot />
         <PetVideoShowcase />
         <Contact />
+        <ProviderInterestForm />
       </main>
       <Footer />
     </>
