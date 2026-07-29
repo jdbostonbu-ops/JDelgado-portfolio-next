@@ -66,7 +66,7 @@ export default function ProviderInterestForm() {
     >
       <div className="provider-interest-shell">
         <div className="provider-interest-intro">
-          <p className="eyebrow mono">Narley Provider Network</p>
+          <p className="eyebrow mono">Narley Community Intelligence Network</p>
           <h2 className="section-title">
             Interested in being a vetted provider for the Narley Provider app?
           </h2>
@@ -82,6 +82,10 @@ export default function ProviderInterestForm() {
               organization.
             </p>
           </div>
+
+          <a className="provider-privacy-link" href="/privacy">
+            Read the Narley Privacy Policy <span aria-hidden="true">→</span>
+          </a>
         </div>
 
         <form className="provider-form" onSubmit={onSubmit}>
