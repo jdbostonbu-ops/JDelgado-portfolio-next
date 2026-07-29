@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Effective Date:** [July 28, 2026]
+**Effective Date:** July 28, 2026
 
 This Privacy Policy explains how Narley ("we," "us," or "our") collects, uses, and protects your information when you use the Narley Community Resources (Reader) app and the Narley Provider app (together, the "Apps"). By using the Apps, you agree to the practices described in this policy.
 
@@ -69,6 +69,6 @@ We may update this Privacy Policy from time to time. When we do, we will revise 
 
 If you have questions about this Privacy Policy or how your information is handled, please contact us at:
 
-**Email:** [hum@jacquelinedelgado.com]
+**Email:** hum@jacquelinedelgado.com
 
 Hum LLC
