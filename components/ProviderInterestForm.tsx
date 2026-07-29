@@ -68,7 +68,7 @@ export default function ProviderInterestForm() {
         <div className="provider-interest-intro">
           <p className="eyebrow mono">Narley Community Intelligence Network</p>
           <h2 className="section-title">
-            Interested in being a vetted provider for the Narley Provider app?
+            Interested in being a provider for the Narley Provider Community Intelligence app?
           </h2>
           <p className="provider-interest-lead">
             Complete the form. We&apos;ll use these details to begin the
@@ -111,6 +111,18 @@ export default function ProviderInterestForm() {
               autoComplete="organization"
               placeholder="Organization name"
               required
+            />
+          </div>
+
+          <div className="provider-field provider-field--full">
+            <label htmlFor="provider-website">Website</label>
+            <input
+              id="provider-website"
+              name="website"
+              type="url"
+              autoComplete="url"
+              inputMode="url"
+              placeholder="https://organization.org"
             />
           </div>
 
