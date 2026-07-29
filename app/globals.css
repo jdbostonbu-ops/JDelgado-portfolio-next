@@ -1676,6 +1676,13 @@ main { overflow: hidden; }
 .provider-privacy-link span { transition: transform 160ms ease; }
 .provider-privacy-link:hover span { transform: translateX(4px); }
 
+.provider-privacy-note {
+  color: var(--white);
+  font-size: 13px;
+  line-height: 1.55;
+  margin: 8px 0 0;
+}
+
 .privacy-nav {
   justify-content: flex-end;
 }
