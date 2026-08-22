@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import Footer from "@/components/Footer";
+import PrivacyContactForm from "@/components/PrivacyContactForm";
 
 export const metadata: Metadata = {
   title: "Narley Privacy Policy | Jacqueline Delgado",
@@ -111,6 +112,7 @@ export default async function PrivacyPage() {
             return <p key={index}><InlineText content={block.content} /></p>;
           })}
         </article>
+        <PrivacyContactForm />
       </main>
       <Footer />
     </>
